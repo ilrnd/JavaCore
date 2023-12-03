@@ -26,7 +26,7 @@ public class Program {
 
         try {
             debitAccount = debitAccount.createDebitAccount(startBalance);
-            System.out.printf("Дебетовый счет %d успешно открыт, начальный баланс: %.2f рублей\n", debitAccount.getId(), debitAccount.getBalance());
+            System.out.printf("Дебетовый счет %d успешно открыт, баланс: %.2f рублей\n", debitAccount.getId(), debitAccount.getBalance());
         } catch (IllegalArgumentException e){
             System.out.println(e.getMessage());
         }
@@ -53,7 +53,7 @@ public class Program {
 
         try {
             creditAccount= CreditAccount.createCreditAccount(startBalance, creditLimit);
-            System.out.printf("Кредитный счет %d успешно открыт, начальный баланс: %.2f рублей, кредитный лимит %.2f рублей\n", creditAccount.getId(), creditAccount.getBalance(), creditAccount.getCreditLimit());
+            System.out.printf("Кредитный счет %d успешно открыт, баланс: %.2f рублей, кредитный лимит %.2f рублей\n", creditAccount.getId(), creditAccount.getBalance(), creditAccount.getCreditLimit());
         } catch (IllegalArgumentException e){
             System.out.println(e.getMessage());
         }
