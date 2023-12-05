@@ -6,10 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HT5.2" />
         <module name="HT4" />
+        <module name="HT5.1" />
         <module name="HT3" />
         <module name="HT2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HT5" target="21" />
+      <module name="HT5_1" target="21" />
+    </bytecodeTargetLevel>
   </component>
 </project>

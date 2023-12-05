@@ -8,11 +8,16 @@
         <option value="$PROJECT_DIR$/HT2/pom.xml" />
         <option value="$PROJECT_DIR$/HT3/pom.xml" />
         <option value="$PROJECT_DIR$/HT4/pom.xml" />
+        <option value="$PROJECT_DIR$/HT5/pom.xml" />
+        <option value="$PROJECT_DIR$/HT5.1/pom.xml" />
+        <option value="$PROJECT_DIR$/HT5.2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/HT1/HT2/pom.xml" />
+        <option value="$PROJECT_DIR$/HT5/HT5_1/pom.xml" />
+        <option value="$PROJECT_DIR$/HT5/pom.xml" />
       </set>
     </option>
   </component>
